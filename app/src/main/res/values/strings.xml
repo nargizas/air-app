@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">air: Advance in Robotics</string>
+    <string name="title_robots">My robots</string>
+    <string name="title_tutorials">My tutorials</string>
+    <string name="title_profile">My profile</string>
+
+    <string-array name="robots_name">
+        <item>Robot 1</item>
+        <item>Robot 2</item>
+        <item>Robot 3</item>
+    </string-array>
+
+    <string-array name="robots_icon">
+        <item>Robot</item>
+
+
+    </string-array>
+</resources>
