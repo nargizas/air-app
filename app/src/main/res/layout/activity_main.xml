@@ -7,18 +7,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.heartbrers.air.MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/my_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:background="@color/colorPrimary"
-        android:elevation="4dp"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
     <FrameLayout
         android:id="@+id/fragment_container"
-        android:layout_marginTop="56dp"
         android:layout_marginBottom="56dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

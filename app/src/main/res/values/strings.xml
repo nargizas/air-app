@@ -3,16 +3,19 @@
     <string name="title_robots">My robots</string>
     <string name="title_tutorials">My tutorials</string>
     <string name="title_profile">My profile</string>
+    <string name="name">TextView</string>
+    <string name="age">TextView</string>
+    <string name="region">TextView</string>
+    <string name="Robo_coins">TextView</string>
+    <string name="coins_amount">TextView</string>
+    <string name="r_name">Robot Name</string>
 
     <string-array name="robots_name">
         <item>Robot 1</item>
         <item>Robot 2</item>
         <item>Robot 3</item>
+        <item>Robot 4</item>
     </string-array>
 
-    <string-array name="robots_icon">
-        <item>Robot</item>
 
-
-    </string-array>
 </resources>
