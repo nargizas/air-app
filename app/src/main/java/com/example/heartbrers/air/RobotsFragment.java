@@ -1,6 +1,5 @@
 package com.example.heartbrers.air;
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -22,18 +21,23 @@ public class RobotsFragment extends Fragment {
     RecyclerView.LayoutManager layoutManager;
     String[] r_name;
     int[] icon_id ={R.drawable.industrial_robot};
+    int[] delete ={R.drawable.delete};
+    int[] copy ={R.drawable.content_copy};
     ArrayList<RoboInfo> arrayList = new ArrayList<RoboInfo>();
+
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_robots, container, false);
         recyclerView= (RecyclerView)view.findViewById(R.id.recycler_view_robots);
+
+
         r_name=getResources().getStringArray(R.array.robots_name);
         int i =0;
         for (String name: r_name)
         {
-            RoboInfo roboInfo = new RoboInfo(icon_id[0], name);
+            RoboInfo roboInfo = new RoboInfo(icon_id[0], name, delete[0], copy[0]);
             arrayList.add(roboInfo);
             i++;
         }
@@ -42,7 +46,12 @@ public class RobotsFragment extends Fragment {
         layoutManager=new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
+
         return view;
+
+
     }
+
+
 
 }

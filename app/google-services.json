@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "862367354585",
+    "firebase_url": "https://air-app-89888.firebaseio.com",
+    "project_id": "air-app-89888",
+    "storage_bucket": "air-app-89888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862367354585:android:4de9cc141f894d69",
+        "android_client_info": {
+          "package_name": "com.example.heartbrers.air"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862367354585-4i7g8ei71ds7hnie9v4jsj9fmho7e5oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO1dffJERtTlq1ajL3FA0h2zuBQb-od4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

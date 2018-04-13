@@ -5,10 +5,10 @@ package com.example.heartbrers.air;
  */
 
 public class RoboInfo {
-    private int iconId;
+    private int iconId, delete, copy;
     private String r_name;
 
-    public RoboInfo(int iconId, String r_name) {
+    public RoboInfo(int iconId, String r_name, int i, int i1) {
         this.iconId = iconId;
         this.r_name= r_name;
     }
@@ -28,6 +28,22 @@ public class RoboInfo {
 
     public void setR_name(String title) {
         this.r_name = title;
+    }
+
+    public int getDelete() {
+        return delete;
+    }
+
+    public void setDelete(int delete) {
+        this.delete = delete;
+    }
+
+    public int getCopy() {
+        return copy;
+    }
+
+    public void setCopy(int copy) {
+        this.copy = copy;
     }
 }
 

@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Fragment firstFragment = new RobotsFragment();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                firstFragment).commit();
+
+
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }

@@ -8,8 +8,25 @@
     tools:context="com.example.heartbrers.air.MainActivity">
 
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/robots"
+            android:textAppearance="@android:style/TextAppearance.Material.Title" />
+    </android.support.v7.widget.Toolbar>
+
+
     <FrameLayout
         android:id="@+id/fragment_container"
+        android:layout_marginTop="56dp"
         android:layout_marginBottom="56dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

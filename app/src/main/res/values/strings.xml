@@ -9,6 +9,9 @@
     <string name="Robo_coins">TextView</string>
     <string name="coins_amount">TextView</string>
     <string name="r_name">Robot Name</string>
+    <string name="v_name">Video 1</string>
+    <string name="robots">My Robots</string>
+    <string name="ok">OK</string>
 
     <string-array name="robots_name">
         <item>Robot 1</item>
